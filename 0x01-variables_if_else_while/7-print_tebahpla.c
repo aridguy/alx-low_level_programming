@@ -1,20 +1,15 @@
 #include <stdio.h>
-
 /**
-  * main - Prints the alphabet at reverse
-  *
-  * Return: Always (Success)
-  */
+  * main - entry block
+  * description - prints the lowercase alphabet in reverse
+  * Return: 0
+**/
 int main(void)
 {
-char c;
+	char c;
 
-for (c = 'z'; c >= 'a'; c--)
-{
-putchar(c);
-}
-
-putchar('\n');
-
-return (0);
+	for (c = 'z' ; c >= 'a'; c--)
+		putchar(c);
+	putchar('\n');
+	return (0);
 }

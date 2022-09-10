@@ -1,20 +1,11 @@
 #include <stdio.h>
-
 /**
-  * main - Prints the numbers since 0 to 9
-  *
-  * Return: Always (Success)
-  */
+ *main - entry
+ *description - Prints the numbers from 0-9.
+ *Return: 0 on success
+ */
 int main(void)
 {
-char n;
-
-for (n = '0'; n <= '9'; n++)
-{
-putchar(n);
-}
-
-putchar('\n');
-
-return (0);
+	printf("0123456789\n");
+	return (0);
 }
